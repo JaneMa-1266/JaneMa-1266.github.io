@@ -17,16 +17,16 @@
     
     
     <entry>
-      <title>我的第4篇博客——测试</title>
-      <link href="/2023/08/08/20230809/"/>
-      <url>/2023/08/08/20230809/</url>
+      <title>text</title>
+      <link href="/2023/08/08/text/"/>
+      <url>/2023/08/08/text/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2><p>正文 - 测试</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="TEXT"><a href="#TEXT" class="headerlink" title="TEXT"></a>TEXT</h4><p>text text text text text text text text<br>我是abc”页面”的文章内容</p>]]></content>
       
       
       <categories>
           
-          <category> 日志 </category>
+          <category> 遥感 </category>
           
       </categories>
       
@@ -44,16 +44,16 @@
     
     
     <entry>
-      <title>text</title>
-      <link href="/2023/08/08/text/"/>
-      <url>/2023/08/08/text/</url>
+      <title>我的第4篇博客——测试</title>
+      <link href="/2023/08/08/20230809/"/>
+      <url>/2023/08/08/20230809/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="TEXT"><a href="#TEXT" class="headerlink" title="TEXT"></a>TEXT</h4><p>text text text text text text text text<br>我是abc”页面”的文章内容</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2><p>正文 - 测试</p>]]></content>
       
       
       <categories>
           
-          <category> 遥感 </category>
+          <category> 日志 </category>
           
       </categories>
       
