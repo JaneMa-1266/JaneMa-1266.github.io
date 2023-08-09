@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="/2023/08/09/%E7%BC%96%E7%A8%8B/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/"/>
+      <url>/2023/08/09/%E7%BC%96%E7%A8%8B/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>text</title>
+      <link href="/2023/08/08/text/"/>
+      <url>/2023/08/08/text/</url>
+      
+        <content type="html"><![CDATA[<h4 id="TEXT"><a href="#TEXT" class="headerlink" title="TEXT"></a>TEXT</h4><p>text text text text text text text text<br>我是abc”页面”的文章内容</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 遥感 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日志 </tag>
+            
+            <tag> 随便写写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第4篇博客——测试</title>
+      <link href="/2023/08/08/20230809/"/>
+      <url>/2023/08/08/20230809/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2><p>正文 - 测试</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日志 </tag>
+            
+            <tag> 随便写写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DOS &amp; cmd</title>
+      <link href="/2023/08/08/%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80_DOS%E5%91%BD%E4%BB%A4(cmd)/"/>
+      <url>/2023/08/08/%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80_DOS%E5%91%BD%E4%BB%A4(cmd)/</url>
+      
+        <content type="html"><![CDATA[<p>DOS（disk operating system）磁盘操作系统，<br>        是一个顶层系统，在Windows GUI（图形界面）出来以前就是人和机器交互的工具，<br>        当时人和机器交互就只能通过命令而不能使用鼠标，这种情形有点类似我们在电脑蓝屏重启时按F8进入安全模式。<br>        在Windows GUI问世后，DOS事实上已不再需要，但其功能却以程序的形式被保留下来，这个程序在Windows中就是cmd.exe。</p><p>cmd.exe    windows下的命令提示符，</p><p>​DOS是一种纯命令方式，<strong>cmd其实就是在windows状态下进入dos方式</strong><br>​cmd.exe使用的命令行和DOS的命令大部分是一致的，所以<strong>可以认为cmd.exe和DOS有继承关系</strong>，但<strong>cmd是一个程序，DOS是一个操作系统</strong>，只是恰巧命令一样而已。<u>（<em>cmd</em> 在windows下是DOS模拟器,能运行绝大部分DOS命令,但是不是真正的DOS；<em>DOS</em>是一个操作系统,而<em>CMD</em>只是在WINDOWS下面模拟DOS环境）</u><br>————————————————<br>在DOS命令窗口中编写DOS命令-win+R-cmd</p><h4 id="常见DOS-cmd命令"><a href="#常见DOS-cmd命令" class="headerlink" title="常见DOS&#x2F;cmd命令"></a>常见DOS&#x2F;cmd命令</h4><h5 id="启动cmd"><a href="#启动cmd" class="headerlink" title="启动cmd"></a>启动cmd</h5><ol><li>用户启动，Win**+**r 输入<code>cmd</code>，Enter</li><li>管理员启动，Win**+<strong>r 输入<code>cmd</code>，Ctrl</strong>+<strong>Shift</strong>+**Enter</li></ol><h5 id="文件命令"><a href="#文件命令" class="headerlink" title="文件命令"></a>文件命令</h5><p>exit - 退出当前DOS命令窗口</p><p>cls - clear screen&#x2F;清屏</p><p>复制 - 选中要复制的内容，在任意位置点击鼠标右键</p><p>ctrl+c - 终止命令</p><p>Tab按键 - 补全命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用help命令查看帮助</span></span><br><span class="line">命令 -<span class="built_in">help</span>     <span class="comment"># 第1种形式的使用帮助</span></span><br><span class="line">命令  /?       <span class="comment"># 第2种形式的使用帮助</span></span><br></pre></td></tr></table></figure><p>dir - directory&#x2F;列出当前目录下所有的子文件夹&#x2F;子目录（显示详细信息）   【同linux的”ls”命令】</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成目录树（在文件少一些的路径尝试。要不会运行好久，ctrl+c可以停掉）</span></span><br><span class="line">tree</span><br><span class="line">tree /f</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">dir</span>         <span class="comment"># 遍历当前路径下所有文件</span></span><br><span class="line"><span class="built_in">dir</span> /s      <span class="comment"># 显示当前目录及子文件</span></span><br><span class="line"><span class="built_in">dir</span> /d      <span class="comment"># 显示文件以及文件大小、个数</span></span><br><span class="line"><span class="built_in">dir</span> /b      <span class="comment"># 显示文件</span></span><br><span class="line"><span class="built_in">dir</span> /?      <span class="comment"># 查看隐藏文件夹</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## ===== 对dir的组合使用 =====</span></span><br><span class="line"><span class="built_in">dir</span>/s/b d:\file         <span class="comment">#查找文件（只需要输入路径即可，无需cd返回到某个路径再执行命令）</span></span><br><span class="line"><span class="built_in">dir</span>/s/d d:\file         <span class="comment">#查找文件 &amp; 文件大小、个数</span></span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">copy 路径\文件名 路径\文件名       <span class="comment">#复制文件</span></span><br><span class="line">move 路径\文件名 路径\文件名       <span class="comment">#移动文件</span></span><br></pre></td></tr></table></figure><p>cd - change directory&#x2F;改变目录 - cd+目录的路径(可以是相对路径or绝对路径)</p><p>​cd .. 回到上级目录；cd \ 直接回到根目录 （cd ..&#x2F;..&#x2F;..&#x2F; 回到上三级目录）</p><p>​路径中..代表上级目录；.代表当前目录</p><p>C：或D： - 直接切换盘符</p><p>md - 创建目录</p><p>rd - 删除目录</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打开文件夹或文件</span></span><br><span class="line">start 文件名字</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建文件夹</span></span><br><span class="line">md d:\typora\file</span><br><span class="line"><span class="built_in">mkdir</span> newtest 进入根目录后使用</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建空文件</span></span><br><span class="line"><span class="built_in">cd</span>.&gt;file.txt</span><br><span class="line"><span class="built_in">cd</span>.&gt;file.docx</span><br><span class="line"><span class="built_in">cd</span>.&gt;file.ppt</span><br><span class="line"></span><br><span class="line"><span class="built_in">type</span> nul&gt; newtest.txt </span><br><span class="line"><span class="built_in">type</span> nul&gt;.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 新建非空文件</span></span><br><span class="line"><span class="built_in">echo</span> 文件中的内容&gt;new.txt</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除文件（如果是del 文件夹A是删除文件夹A内的所有带后缀的文件，若文件夹A中有文件夹B，文件夹B不会被修改）</span></span><br><span class="line">del file.txt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除指定后缀的文件</span></span><br><span class="line">del *.txt</span><br><span class="line">del *.docx</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 删除文件夹（del后面如果接的是文件夹/目录：那么删除的就是这个文件夹下的文件，而不是文件夹）</span></span><br><span class="line">rd file            <span class="comment"># 删除名为file的空文件夹</span></span><br><span class="line">rd /s D:\file      <span class="comment"># 删除名为file的文件夹</span></span><br><span class="line">rd file /s         <span class="comment"># 删除file文件夹下的所有文件</span></span><br></pre></td></tr></table></figure><h5 id="网络相关"><a href="#网络相关" class="headerlink" title="网络相关"></a>网络相关</h5><p>ipconfig - 查看IP地址</p><p>ping - 测试网络连通性</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ping www.csdn.net              # 查询ip地址</span><br></pre></td></tr></table></figure><p>netstat - 查看网络连接状态</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">netstat -help     # 获取命令行使用帮助信息</span><br><span class="line">netstat -ano      # 查看网络连接、状态以及对应的进程id</span><br></pre></td></tr></table></figure><h5 id="其他的命令们"><a href="#其他的命令们" class="headerlink" title="其他的命令们"></a>其他的命令们</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">notepad+路径打开记事本</span><br><span class="line">dxdiag检查DirectX信息</span><br><span class="line">winver检查Windows版本</span><br><span class="line">wmimgmt.msc打开windows管理体系结构（WMI）</span><br><span class="line">wupdmgrwindows更新程序</span><br><span class="line">wscriptwindows脚本设置</span><br><span class="line">write写字板</span><br><span class="line">winmsd系统信息</span><br><span class="line">wiaacmgr扫描仪和相机</span><br><span class="line">calc计算器</span><br><span class="line">mplayer2打开windows media player</span><br><span class="line">mspaint画图板</span><br><span class="line">mstsc远程桌面连接</span><br><span class="line">mmc打开控制台</span><br><span class="line">dxdiag检查Directx信息</span><br><span class="line">drwtsn32系统医生</span><br><span class="line">devmgmt.msc设备管理器</span><br><span class="line">notepad记事本</span><br><span class="line">ntbackup系统备份和还原</span><br><span class="line">sndrec32录音机</span><br><span class="line">Sndovl32音量控制程序</span><br><span class="line">tsshutdn60秒倒计时关机</span><br><span class="line">taskmgr任务管理器</span><br><span class="line">explorer资源管理器</span><br><span class="line">progman程序管理器</span><br><span class="line">regedit.exe注册表</span><br><span class="line">perfmon.msc计算机性能监测</span><br><span class="line">eventvwr事件查看器</span><br><span class="line">net user  查看用户</span><br><span class="line">whoami查看当前用户</span><br><span class="line">net user %username% 123456 将电脑用户密码修改为123456，%%中填写用户名称</span><br></pre></td></tr></table></figure><h5 id="再其他的参见："><a href="#再其他的参见：" class="headerlink" title="再其他的参见："></a>再其他的参见：</h5><p>​<a href="http://t.csdn.cn/dgus1%EF%BC%88%E5%BF%AB%E6%8D%B7%E9%94%AE%E3%80%81JAVA%E7%9B%B8%E5%85%B3%EF%BC%89">http://t.csdn.cn/dgus1（快捷键、JAVA相关）</a></p><p>​<a href="http://t.csdn.cn/CsYM2">http://t.csdn.cn/CsYM2</a></p><p>​<a href="http://t.csdn.cn/JkZ0N">http://t.csdn.cn/JkZ0N</a></p><p>​<a href="http://t.csdn.cn/rW17k%EF%BC%88%E8%AF%A6%E8%BF%B0cmd%E5%91%BD%E4%BB%A4%EF%BC%9Aping%E3%80%81nbstat%E3%80%81nestat%E3%80%81ipconfig%E3%80%81at%E3%80%81ftp">http://t.csdn.cn/rW17k（详述cmd命令：ping、nbstat、nestat、ipconfig、at、ftp</a>  。。。）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> 随便写写 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/08/08/hello-world/"/>
+      <url>/2023/08/08/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
