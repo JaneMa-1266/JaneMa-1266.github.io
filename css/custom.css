@@ -1,28 +1,48 @@
 <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 一图流 —— 将头图和尾图改为透明：https://www.fomal.cc/posts/eec9786.html */
 /* 页脚与头图透明 */
-/* #footer {
+#footer {
     background: transparent !important;
 }
-#page-header {
+/* #page-header {
   background: transparent !important;
 } */
 
 /* 白天模式遮罩透明 */
-/* #footer::before {
+#footer::before {
   background: transparent !important;
 }
-#page-header::before {
+/* #page-header::before {
   background: transparent !important;
 } */
 
 /* 夜间模式遮罩透明 */
-/* [data-theme="dark"] #footer::before {
+[data-theme="dark"] #footer::before {
   background: transparent !important;
 }
-[data-theme="dark"] #page-header::before {
+/* [data-theme="dark"] #page-header::before {
   background: transparent !important;
 } */
 
+
+/* ======================== */
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+/* 子菜单横向展示 (column-将横向的子菜单变纵向了) */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+  flex-direction:column;   
+  align-items:center; 
+}
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+/* .menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -125px
+}  */
 
 
 /* ===================== */
@@ -40,28 +60,8 @@
 }
 
 
-/* ======================== */
-
-/* 一级菜单居中 */
-#nav .menus_items {
-  position: absolute !important;
-  width: fit-content !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-}
-/* 子菜单横向展示 */
-#nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex !important;
-  flex-direction:column;   /* 将横向的子菜单变纵向了 */
-  align-items:center; 
-}
-/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
-/* .menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -125px
-}  */
-
-
 /* ======================= */
+/* 夜间霓虹灯效果 */
 /* 日间模式不生效 */
 [data-theme="light"] #site-name,
 [data-theme="light"] #site-title,
@@ -194,7 +194,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;   /* -1表示在文字、图片底层 */
 }
 
 
